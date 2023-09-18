@@ -15,3 +15,13 @@ def main():
   focus_timer(num_sessions)
 
 print("Congratulations! You have completed {} focus sessions and taken breaks in between.".format(num_sessions))
+
+while True:
+    user_input = input("Would you like to continue with another focus session? (yes/no): ")
+    if user_input.lower() == "yes":
+        num_sessions += 1
+        print("Starting another focus session...")
+        focus_timer(1)
+        elif user_input.lower() == "no":
+            print("Thank you for using the focus timer. Keep up the great work!dk")
+            break
