@@ -25,3 +25,9 @@ while True:
         elif user_input.lower() == "no":
             print("Thank you for using the focus timer. Keep up the great work!dk")
             break
+        else:
+            print("Invalid input. Please enter 'yes' or 'no'.")
+
+print("End of program.")
+if __name__ == "__main__":
+     main()
