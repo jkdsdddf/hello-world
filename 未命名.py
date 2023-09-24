@@ -18,6 +18,7 @@ def print_progress_bar(iteration, total, prefix = '', suffix = '', decimals = 1,
 
 items = []
 for i in range(5000):
+    
     items.append({
         'id': generate_random_number(10),
         'name': generate_random_string(20),
